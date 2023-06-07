@@ -14,9 +14,8 @@ Step 9:Evaluate the model's accuracy by comparing the predicted labels (y_pred) 
 Step 10:Print the accuracy of the model.<br>
 Step 11:Plot the error convergence during training using plt.plot() and plt.show().<br>
 
-## Program: 
-
-'```import numpy as np
+## Program:
+      import numpy as np
 import pandas as pd
 from sklearn.neural_network import MLPClassifier
 from sklearn.model_selection import train_test_split
@@ -42,9 +41,7 @@ plt.plot(training_loss)
 plt.title("MLP Training Loss Convergence")
 plt.xlabel("Iteration")
 plt.ylabel("Training Loss")
-plt.show()```'
-
-
+plt.show()
 ## Output:
 
 ## Result:
